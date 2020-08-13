@@ -5,7 +5,7 @@ task1 - 17
 ***
 output_input1 - 7
 
-Design pattern (Wrapper or Decorator) output_input8
+Design pattern (Wrapper or Decorator example (package src.main.java.com.kotov.thread.decorator)) output_input8
 
 If we want to "wrap" method calls of some object with our own code, then we need:
 
