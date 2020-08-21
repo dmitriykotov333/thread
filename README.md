@@ -5,7 +5,7 @@ task1 - 17
 ***
 output_input1 - 7
 
-Design pattern (Wrapper or Decorator example (package src.main.java.com.kotov.thread.decorator)) output_input8
+Design pattern (Wrapper or Decorator example (package src.main.java.com.kotov.thread.decorator)) output_input8 - 23
 
 If we want to "wrap" method calls of some object with our own code, then we need:
 
@@ -30,3 +30,6 @@ What happened is called buffering, and the sugar bowl is a buffer. With bufferin
 Asking for a spoonful of sugar is analogous to reading one byte from a stream.
 
 The BufferedInputStream class is a classic example of a buffer wrapper. It is an InputStream wrapper class. When reading data from it, it reads it from the original InputStream in large portions into the buffer, and then gives it from the buffer slowly
+
+
+Design pattern Adapter (output_input24 - )
