@@ -77,10 +77,3 @@ Serializable (serializable1 - )
 | List<String> readAllLines(Path path,..) |	Читает текстовый файл, возвращает список строк. |
 | Path write(Path path, byte[] bytes,…) |	Пишет массив байт в файл. |
   
-URL url = new URL("https://www.google.com.ua/images/srpr/logo11w.png");
-
-InputStream inputStream = url.openStream();
-
-Path tempFile = Files.createTempFile("temp-",".tmp");
-
-Files.copy(inputStream, tempFile);
