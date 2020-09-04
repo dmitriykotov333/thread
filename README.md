@@ -35,3 +35,19 @@ The BufferedInputStream class is a classic example of a buffer wrapper. It is an
 Design pattern Adapter (output_input24 - 34)
 
 Serializable (serializable1 - )
+
+# java.nio.file.*
+
+| Методы класса Path	| Описание| 
+| boolean isAbsolute()	| Возвращает true, если путь – абсолютный.
+| Path getRoot()	| Возвращает корень текущего пути – директорию самого верхнего уровня.
+| Path getFileName()	| Возвращает имя файла из текущего пути.
+| Path getParent()	| Возвращает директорию из текущего пути.
+| boolean startsWith(Path other)	| Проверяет, что текущий путь начинается с переданного пути.
+| boolean endsWith(Path other)	| Проверяет, что текущий путь заканчивается на переданный путь.
+| Path normalize()	| Нормализует текущий путь. Например, приводит путь «c:/dir/dir2/../a.txt» к пути «c:/dir/a.txt»
+| Path relativize(Path other)	| Вычисляет относительный путь двух путей – «разницу путей»
+| Path resolve(String other)	| Восстанавливает абсолютный путь по текущему и относительному.
+| URI toUri()	| Возвращает URI текущего пути/файла.
+| Path toAbsolutePath()	| Приводит путь к абсолютному, если был относительный.
+| File toFile()	| Возвращает объект File, который соответствует текущему объекту Path.
